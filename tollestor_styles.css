@@ -1,0 +1,250 @@
+/*tolle torsteuerung.css */
+
+html {
+font-size: 5.5px;
+}
+@media only screen and (max-width: 768px) {
+html {
+font-size: 4px;
+}
+}
+@media only screen and (max-width: 480px) {
+html {
+font-size: 2.5px;
+}
+}
+input[type=text] {
+font-size: 10rem;
+font-weight: normal;
+font-family: 'Montserrat';
+background: #111;
+color: white;
+padding: 1rem;
+border: 1px solid #ccc;
+-webkit-border-radius: 4rem;
+border-radius: 4rem;
+width: 120rem;
+height: 20rem;
+}
+input[type=password] {
+font-size: 10rem;
+font-weight: normal;
+font-family: 'Montserrat';
+background:#111;
+color: white;
+padding: 1rem;
+border: 2px solid #ccc;
+-webkit-border-radius: 4rem;
+border-radius: 4rem;
+width: 120rem;
+height: 20rem;
+}
+input[type=password]:focus {
+background:#222;
+border-color:white;
+}
+input[type=text]:focus {
+background:#222;
+border-color:white;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+-webkit-text-size-adjust: 100% !important;
+caret-color: white !important;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+-webkit-text-fill-color: white !important;
+-webkit-background-clip: text !important;
+background-color: #111 !important;
+border-radius: 4rem !important;
+}
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus {
+-webkit-text-fill-color: white !important;
+-webkit-background-clip: text !important;
+background-color: #222 !important;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+-webkit-box-shadow: 0 0 0 200rem #111 inset !important;
+}
+input[type=submit] {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+opacity: 1;
+position: relative;
+background-color: #2E7D32;
+border: none;
+font-size: 10rem;
+font-weight: normal;
+font-family: 'Montserrat';
+font-color: white;
+color: #FFFFFF;
+width:122rem;
+height: 26rem;
+-webkit-border-radius: 4rem;
+border-radius: 4rem;
+text-align:center;
+transition: transform 0.3s ease;
+overflow:hidden;
+cursor:pointer;
+}
+@media (hover: hover) {
+input[type=submit]:hover {
+margin: 0;
+transform: scale(1.05);
+}
+input[type=submit]:active {
+transform: scale(0.95);
+}
+}
+#parallelogramLogin {
+margin: auto;
+margin-top: 10rem;
+text-align: center;
+vertical-align: middle;
+display: block;
+}
+#parallelogram {
+margin: auto;
+margin-top: 10rem;
+text-align: center;
+vertical-align: middle;
+}
+#Main {
+display: none; /* display: block; */
+margin-bottom: 10rem;
+}
+img.center {
+display: block;
+margin: 0 auto;
+padding: 0px 0px;
+cursor: pointer;
+max-width: 50%;
+height: auto;
+object-fit: contain;
+}
+@media only screen and (orientation: portrait) {
+img.center {
+max-width: 100%;
+}
+}
+.button {
+position: relative;
+background-color: #B30000;
+border:none;
+font-size: 10rem;
+color:white;
+padding: 16rem;
+width: 122rem;
+text-align:center;
+transition: transform 0.3s ease;
+text-decoration:none;
+overflow:hidden;
+visibility:hidden;
+cursor:pointer;
+border-radius: 4rem;
+}
+@media (hover: hover) {
+.button:hover {
+margin: 0;
+transform: scale(1.05);
+}
+.button:active {
+transform: scale(0.95);
+}
+}
+body {
+height: 100vh;
+margin: 0;
+background: linear-gradient(to bottom, #111, black) fixed;
+}
+span {
+color: white;
+}
+h1{text-align:center; color: white; font-weight: normal; font-size: 7rem; font-family: 'Montserrat'}
+h2{text-align:center; color: white; font-weight: normal; font-size: 10rem; font-family: 'Montserrat'}
+.tablink {
+margin-top: 10rem;
+background-color: #111;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 7rem 0px;
+font-family: 'Montserrat';
+font-size: 7rem;
+width: 50%;
+}
+.tablink:hover {
+background-color: #222;
+}
+.tablink:focus {
+outline: none;
+}
+.tablink::selection {
+background-color: transparent;
+}
+.tabcontent {
+margin-top: 15rem;
+scroll-behavior: smooth;
+display: none;
+padding-top: 20rem;
+padding-left: 20rem;
+padding-right: 20rem;
+height: 100%;
+}
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+box-sizing: border-box;
+}
+.footer {
+padding: 2rem 0;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+}
+.material-symbols-outlined {
+font-size: 6rem;
+display: inline-block;
+vertical-align: middle;
+position: relative;
+top: -3px;
+}
+.dotted-line {
+height: 1px;
+background-image: linear-gradient(to right, white 50%, transparent 50%);
+background-size: 3px 1px;
+background-position: top;
+background-repeat: repeat-x;
+border: none;
+margin: 2rem 0;
+}
+::selection {
+background-color: transparent;
+color: inherit;
+}
+#copyright_left {
+position: absolute;
+bottom: 2rem;
+left: 2rem;
+font-size: 5rem;
+font-family: 'Montserrat';
+}
+#copyright_right {
+position: absolute;
+bottom: 2rem;
+right: 2rem;
+font-size: 5rem;
+font-family: 'Montserrat';
+}
